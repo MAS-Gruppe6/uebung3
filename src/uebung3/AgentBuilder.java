@@ -36,7 +36,8 @@ public class AgentBuilder implements ContextBuilder<Object> {
 
 		Client[] clients = new Client[] { new Client(new NdPoint(15, 10), space, grid),
 				new Client(new NdPoint(5, 35), space, grid), new Client(new NdPoint(40, 10), space, grid),
-				new Client(new NdPoint(35, 45), space, grid), new Client(new NdPoint(40, 35), space, grid) };
+				new Client(new NdPoint(35, 45), space, grid), new Client(new NdPoint(40, 35), space, grid),
+				new Client(new NdPoint(10, 35), space, grid) };
 
 		MessageCenter msgCenter = MessageCenter.singleton;
 
